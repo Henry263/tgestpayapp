@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>paybackbuck app</title>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="body_container">
+        <div id="info_panel">
+            <div class="from_panel">
+                <div class="each_row">
+                    <span class="from_acnt label_width">From Account</span>
+                    <span class="inpt_width"><input type="text" id="from_acnt_input"/></span>
+                </div>
+                <div class="each_row">
+                    <span class="bank_acnt label_width">From User Account</span>
+                    <span class="inpt_width"><input type="text" id="bank_acnt_num"/></span>
+                </div>
+                <div class="each_row">
+                    <span class="amount_info label_width">Amount to Transfer</span>
+                    <span class="inpt_width"><input type="number" id="amount_info"/></span>
+                </div>
+            </div>
+            <div class="to_panel">
+                <div class="each_row">
+                    <span class="from_acnt label_width">To Account</span>
+                    <span class="inpt_width"><input type="text" id="to_acnt_input"/></span>
+                </div>
+                <div class="each_row">
+                    <span class="bank_acnt label_width">To User Account</span>
+                    <span class="inpt_width"><input type="text" id="to_acnt_num"/></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="varify_amount" class="vrfy_btn">Verify Amount</button>
+        </div>
+
+    </div>
+</body>
+</html>

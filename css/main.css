@@ -1,0 +1,22 @@
+
+.to_panel {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.from_panel {
+    width: 30%;
+    display: inline-block;
+}
+
+span.label_width {
+    display: inline-block;
+    width: 40%;
+}
+span.inpt_width {
+    display: inline-block;
+    width: 50%;
+}
+.each_row {
+    margin: 15px 5px;
+}
